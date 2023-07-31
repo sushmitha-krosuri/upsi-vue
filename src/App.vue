@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <the-navbar></the-navbar>
+    
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import TheNavbar from './components/TheNavbar.vue';
+ 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TheNavbar,
+     
   }
 }
 </script>
